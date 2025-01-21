@@ -40,6 +40,11 @@ END
 select procedure_function.get_total_price(1);
 ```
 
+# swagger GUI
+```
+http://localhost:8080/swagger-ui.html
+```
+
 ### Why Use Stored Procedures and Functions?
 
 Complex Logic: If you have complicated SQL operations — like multiple joins or conditional logic — stored procedures can help organize your code.
